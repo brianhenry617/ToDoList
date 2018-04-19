@@ -37,12 +37,13 @@ namespace ToDoList.Controllers
 
   }
 }
-public class Category
-{
-  [HttpGet("/items")]
-  public ActionResult Index()
-  {
-    List<Item> Items = Item.GetAll();
-    return View (Items);
-  }
-}
+// }
+// public class Category
+// {
+//   [HttpGet("/items")]
+//   public ActionResult Index()
+//   {
+//     List<Item> Items = Item.GetAll();
+//     return View(items);
+//   }
+// }
